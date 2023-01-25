@@ -10,9 +10,13 @@ lint:
 	pylint --disable=R,C *.py mylib/*.py
 test:
 	#test
-	python3 -m pytest -vv --cov=mylib test_*.py
+	python3 -m pytest -vv --cov=mylib --cov=main test_*.py
 build:
 	#build container
+	docker build -t deploy-fastapi .
+run:
+	#run docker image
+	docker run -p 8080:8080 deploy-fastapi
 deploy:
 	#deploy
 all: install format lint test deploy
