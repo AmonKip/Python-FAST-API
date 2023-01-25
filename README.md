@@ -11,4 +11,4 @@
 
 ![lint-failure](https://user-images.githubusercontent.com/10374083/214616546-fefeea2f-400c-4bd8-9ffa-fed53757c2de.png)
 
-
+5. Build cli using Python Fire library ` ./cli-fire.py --help` to test logic
