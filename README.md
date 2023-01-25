@@ -7,3 +7,8 @@
 2. Create empty files: `Makefile`, `requirements.tct`, `main.py`, `Dockerfile`, `mtlib/__init__.py`
 
 3. Populate `Makefile`
+4. Setup Continuous Integration i.e. check code for issues like lint errors
+
+![lint-failure](https://user-images.githubusercontent.com/10374083/214616546-fefeea2f-400c-4bd8-9ffa-fed53757c2de.png)
+
+
